@@ -1,0 +1,23 @@
+print("Whats your name?")
+name = input("Enter your name:")
+print("Hello",name,"!")
+import time
+time.sleep(1)
+print("which recipe instrutions you want?")
+recipe = input("Enter your Recipe: ")
+if recipe=="pasta" or recipe=="Pasta":
+    print("Let's start the recipe of",recipe,".")
+    import time
+    time.sleep(3)
+    print("Boil some water. Wait for 5 minutes.")
+    time.sleep(4)
+    print("Add salt.")
+    time.sleep(2)
+    print("Add the pasta.")
+    time.sleep(3)
+    print("Cook for 10 minutes.")
+    time.sleep(3)
+    print("Remove the water.")
+    time.sleep(2)
+    print("End the recipe.")
+else : print("recipe of",recipe,"is not available.")
